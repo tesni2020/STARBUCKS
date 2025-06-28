@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  src: url(fonts/SoDoSans-Regular.ttf);
+  font-family: Sodosans;
+}
+.navbar-custom {
+  background-color: white;
+  padding: 15px 30px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar-brand img {
+  width: 40px;
+}
+
+.nav-link {
+  color: black;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  color: #00754a; /* Starbucks green */
+}
+
+.btn-outline-dark {
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.btn-dark {
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.store-icon {
+  margin-right: 5px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.promo-text {
+  background-color: #32462f;
+  color: white;
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-outline-light.rounded-pill {
+  padding: 8px 20px;
+  font-weight: bold;
+}
+.btn-custum-cls {
+  margin-left: 180px;
+  width: 155px;
+  height: 44px;
+}
+.text-semibold {
+  font-weight: 600 !important;
+}
+.promo-section {
+  min-height: 100vh;
+}
+
+.promo-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.promo-text {
+  background-color: #1e3932;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.btn-custom {
+  padding: 10px 24px;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .promo-section {
+    flex-direction: column;
+  }
+}
+.disclaimer-text {
+  font-size: 0.875rem; /* Small text (14px) */
+  color: #333;
+  line-height: 1.7;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .disclaimer-text {
+    font-size: 0.75rem; /* Slightly smaller on mobile */
+    line-height: 1.7;
+    font-weight: bold;
+  }
+}
+.footer {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+}
+
+.footer h6 {
+  font-weight: bold;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.footer li {
+  display: block;
+  color: #000 !important;
+  margin-bottom: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footer li:hover {
+  color: #000; /* Starbucks green */
+}
+.toggle-icon {
+  transition: transform 0.3s ease;
+}
+
+button[aria-expanded="true"] .toggle-icon {
+  transform: rotate(180deg);
+}
+li:hover {
+  /* background-color: #e0e0e0; */
+  color: #000;
+  cursor: pointer;
+}
+.footer-links a {
+  display: block;
+  margin-bottom: 6px;
+  color: #000;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.social-icons a {
+  color: #000;
+  margin-right: 15px;
+  font-size: 1.4rem;
+}
